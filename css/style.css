@@ -13,6 +13,32 @@
   color: var(--main-color);
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+nav:hover {
+  border-top-style: solid;
+  border-color: #0065fc;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-style: solid;
+  border-top-color: darkgray;
+  height: 50px;
+  width: 200px;
+}
+
 body {
   display: flex;
   justify-content: center;
