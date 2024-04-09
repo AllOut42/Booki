@@ -22,7 +22,7 @@ header {
 }
 
 header img {
-  width: 50%;
+  width: 85px;
 }
 
 .logo-menu {
@@ -57,7 +57,7 @@ nav a {
   margin: 20px 20px 0;
 }
 
-/***** body *****/
+/****** General ***********/
 
 body {
   display: flex;
@@ -102,6 +102,146 @@ a {
 
 .neutral-star {
   color: var(--main-bg-color);
+}
+
+/****** section recherche ***********/
+
+.t1 h2 {
+  margin-bottom: 0;
+}
+
+.t1 p {
+  margin-top: 8px;
+}
+
+.btn-recherche {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.btn-recherche .logo {
+  width: 48px;
+  height: 48px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.btn-recherche form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 48px;
+  border: 1px solid #f2f2f2;
+}
+
+.btn-recherche form input {
+  border: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+.btn-recherche form:hover {
+  cursor: text;
+}
+
+.btn-recherche form input:focus {
+  outline: none;
+}
+
+.btn-recherche .valider {
+  width: 130px;
+  height: 50px;
+  border: #0065fc;
+  background-color: #0065fc;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.btn-recherche .valider input:hover {
+  cursor: pointer;
+}
+
+.btn-recherche .valider input {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+/******** Filtres ************/
+
+.filtres {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 35px;
+}
+
+.filtres h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtres .bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  border: solid #d9d9d9 2px;
+  background-color: white;
+  border-radius: 25px;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 4px 19px 4px 19px;
+}
+
+.filtre-1 {
+  display: flex;
+  gap: 15px;
+}
+
+.amour {
+  display: flex;
+  gap: 15px;
+}
+
+.filtres .bouton:hover {
+  background-color: #deebff;
+  cursor: pointer;
+}
+
+/******** infobulle *******/
+
+.infobulle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.infobulle p {
+  font-size: 16px;
+}
+
+.infobulle-logo {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /****** Hebergements And Populaires ***********/
