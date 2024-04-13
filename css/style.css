@@ -62,6 +62,7 @@ nav a {
 body {
   display: flex;
   justify-content: center;
+  margin-top: 0;
 }
 
 .main-container {
