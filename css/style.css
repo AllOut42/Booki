@@ -387,6 +387,7 @@ a {
   border-top-right-radius: 20px;
   object-fit: cover;
   height: 86%;
+  width: 100%;
 }
 
 .activite-content {
@@ -414,15 +415,7 @@ footer li {
   margin-bottom: 15px;
 }
 
-.propos {
-  width: 33%;
-}
-
-.hebergement-foot {
-  width: 33%;
-}
-
-.assistance {
+footer div {
   width: 33%;
 }
 
