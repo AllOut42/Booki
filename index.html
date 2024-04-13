@@ -28,8 +28,8 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#Hebergements">Hébergements</a></li>
-            <li><a href="#Activites">Activités</a></li>
+            <li><a href="#hb">Hébergements</a></li>
+            <li><a href="#act">Activités</a></li>
           </ul>
         </nav>
       </header>
@@ -47,9 +47,7 @@
         <form class="recherche" action="" method="post">
           <input type="text" name="recherche" placeholder="Marseille, France" />
         </form>
-        <button class="valider">
-          <input type="button" value="Rechercher" />
-        </button>
+        <button class="valider"><span>Rechercher</span></button>
       </div>
       <div class="filtres">
         <h3>Filtres</h3>
@@ -62,8 +60,6 @@
             <img src="./images/symboles/familial.png" alt="familial" />
             <p>Familial</p>
           </button>
-        </div>
-        <div class="amour">
           <button class="bouton">
             <img src="./images/symboles/romantique.png" alt="romantique" />
             <p>Romantique</p>
@@ -82,7 +78,7 @@
       </div>
       <main>
         <div class="hebergements-and-populaires">
-          <section class="hebergements">
+          <section class="hebergements" id="hb">
             <div class="hebergements-title">
               <h2 class="section-title">Hébergement à Marseille</h2>
             </div>
@@ -430,7 +426,7 @@
             </div>
           </section>
         </div>
-        <div class="activites">
+        <div class="activites" id="act">
           <h2 class="section-title">Activités à Marseille</h2>
           <div class="activite-ville">
             <div class="card-activite">

@@ -166,11 +166,11 @@ a {
   border-bottom-right-radius: 15px;
 }
 
-.btn-recherche .valider input:hover {
+.btn-recherche .valider:hover {
   cursor: pointer;
 }
 
-.btn-recherche .valider input {
+.btn-recherche .valider span {
   border: none;
   background-color: transparent;
   font-size: 18px;
@@ -210,11 +210,6 @@ a {
 }
 
 .filtre-1 {
-  display: flex;
-  gap: 15px;
-}
-
-.amour {
   display: flex;
   gap: 15px;
 }
