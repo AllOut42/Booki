@@ -316,6 +316,7 @@ a {
 /****** Populaires ***********/
 .populaires {
   width: 32%;
+  margin-bottom: 0px;
 }
 
 .populaires-title {
@@ -364,6 +365,7 @@ a {
   padding: 30px;
   margin-top: 30px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .activite-ville {
@@ -389,6 +391,39 @@ a {
 
 .activite-content {
   padding-left: 18px;
+}
+
+/****** Footeux *******/
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: rgba(242, 242, 242, 1);
+  margin-top: 30px;
+}
+
+footer h3 {
+  padding-left: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+}
+footer li {
+  margin-bottom: 15px;
+}
+
+.propos {
+  width: 33%;
+}
+
+.hebergement-foot {
+  width: 33%;
+}
+
+.assistance {
+  width: 33%;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
