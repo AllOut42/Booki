@@ -112,8 +112,9 @@ a {
 
 /****** section recherche ***********/
 
-.t1 h2 {
+.t1 h1 {
   margin-bottom: 0;
+  font-size: 22px;
 }
 
 .t1 p {
