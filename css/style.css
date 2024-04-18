@@ -186,6 +186,11 @@ a {
   cursor: pointer;
 }
 
+.btn-recherche .valider:active {
+  background-color: #0065fc90;
+  border: #0065fc90;
+}
+
 .btn-recherche .valider span {
   border: none;
   background-color: transparent;
@@ -210,7 +215,7 @@ a {
   align-items: center;
 }
 
-.filtres .bouton {
+.filtres button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,7 +235,7 @@ a {
   gap: 15px;
 }
 
-.filtres .bouton:hover {
+.filtres button:hover {
   background-color: #deebff;
   cursor: pointer;
 }
@@ -502,6 +507,20 @@ footer div {
   .card-activite img {
     height: 82%;
   }
+
+  .filtres {
+    gap: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .filtre-1 {
+    width: auto;
+  }
+
+  .btn-recherche {
+    margin-bottom: 5px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -528,13 +547,14 @@ footer div {
     display: flex;
     justify-content: center;
     padding: 0;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     width: 50%;
+    border-bottom: 3px solid #f2f2f2;
   }
 
   nav li:hover {
     color: #0065fc;
-    border-bottom: 2px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
   }
 
   nav li a {
@@ -547,17 +567,23 @@ footer div {
     padding-top: 0;
   }
 
+  .t1 {
+    padding: 15px 30px 0 30px;
+  }
+
   .valider {
     display: none;
   }
 
   .btn-recherche {
+    margin: 0;
+    padding: 15px 30px;
     height: 49px;
-    width: 100%;
+    width: auto;
   }
 
   .btn-recherche form {
-    width: 80%;
+    width: 90%;
   }
 
   .tel-valider {
@@ -567,7 +593,100 @@ footer div {
     width: 49px;
     border: #0065fc;
     background-color: #0065fc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 25%;
     margin-left: -10px;
+  }
+
+  .btn-recherche .tel-valider:active {
+    background-color: #0065fc90;
+    border: #0065fc90;
+  }
+
+  .filtres {
+    padding: 0 30px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .filtre-1 {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .filtres button {
+    padding: 0;
+    font-size: 15px;
+    width: 47%;
+  }
+  .filtres button p {
+    margin: 0;
+  }
+
+  .infobulle {
+    padding: 0 30px 20px 30px;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column;
+  }
+
+  .populaires {
+    margin-top: 0;
+  }
+
+  .populaires-cards {
+    flex-direction: column;
+  }
+
+  .populaires-cards .card {
+    margin-top: 20px;
+  }
+
+  .populaires a {
+    width: 100%;
+  }
+
+  .hebergements-and-populaires .hebergements {
+    background-color: white;
+  }
+
+  .hebergements-cards {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hebergements a h3 {
+    padding-top: 15px;
+    margin: 0;
+  }
+
+  .hebergements-cards .card {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .hebergements .card-title {
+    margin: 0;
+    padding: 0 0 5px;
+  }
+
+  .card-content-heb {
+    padding: 10px 0 0 10px;
+  }
+
+  .activite-ville {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer div {
+    width: 100%;
   }
 }
