@@ -186,6 +186,11 @@ a {
   cursor: pointer;
 }
 
+.btn-recherche .valider:active {
+  background-color: #0065fc90;
+  border: #0065fc90;
+}
+
 .btn-recherche .valider span {
   border: none;
   background-color: transparent;
@@ -563,7 +568,7 @@ footer div {
   }
 
   .t1 {
-    margin: 30px 20px 0 20px;
+    padding: 15px 30px 0 30px;
   }
 
   .valider {
@@ -571,7 +576,8 @@ footer div {
   }
 
   .btn-recherche {
-    margin: 30px 20px;
+    margin: 0;
+    padding: 15px 30px;
     height: 49px;
     width: auto;
   }
@@ -592,8 +598,13 @@ footer div {
     margin-left: -10px;
   }
 
+  .btn-recherche .tel-valider:active {
+    background-color: #0065fc90;
+    border: #0065fc90;
+  }
+
   .filtres {
-    margin: 0 20px;
+    padding: 0 30px;
     align-items: flex-start;
     flex-direction: column;
   }
@@ -614,6 +625,68 @@ footer div {
   }
 
   .infobulle {
-    margin: 0 20px 20px 20px;
+    padding: 0 30px 20px 30px;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column;
+  }
+
+  .populaires {
+    margin-top: 0;
+  }
+
+  .populaires-cards {
+    flex-direction: column;
+  }
+
+  .populaires-cards .card {
+    margin-top: 20px;
+  }
+
+  .populaires a {
+    width: 100%;
+  }
+
+  .hebergements-and-populaires .hebergements {
+    background-color: white;
+  }
+
+  .hebergements-cards {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hebergements a h3 {
+    padding-top: 15px;
+    margin: 0;
+  }
+
+  .hebergements-cards .card {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .hebergements .card-title {
+    margin: 0;
+    padding: 0 0 5px;
+  }
+
+  .card-content-heb {
+    padding: 10px 0 0 10px;
+  }
+
+  .activite-ville {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer div {
+    width: 100%;
   }
 }
