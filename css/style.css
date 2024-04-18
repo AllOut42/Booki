@@ -210,7 +210,7 @@ a {
   align-items: center;
 }
 
-.filtres .bouton {
+.filtres button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,7 +230,7 @@ a {
   gap: 15px;
 }
 
-.filtres .bouton:hover {
+.filtres button:hover {
   background-color: #deebff;
   cursor: pointer;
 }
@@ -528,13 +528,14 @@ footer div {
     display: flex;
     justify-content: center;
     padding: 0;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     width: 50%;
+    border-bottom: 3px solid #f2f2f2;
   }
 
   nav li:hover {
     color: #0065fc;
-    border-bottom: 2px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
   }
 
   nav li a {
@@ -547,17 +548,22 @@ footer div {
     padding-top: 0;
   }
 
+  .t1 {
+    margin: 30px 20px 0 20px;
+  }
+
   .valider {
     display: none;
   }
 
   .btn-recherche {
+    margin: 30px 20px;
     height: 49px;
-    width: 100%;
+    width: auto;
   }
 
   .btn-recherche form {
-    width: 80%;
+    width: 90%;
   }
 
   .tel-valider {
@@ -567,7 +573,33 @@ footer div {
     width: 49px;
     border: #0065fc;
     background-color: #0065fc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 25%;
     margin-left: -10px;
+  }
+
+  .filtres {
+    margin: 0 20px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .filtre-1 {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .filtres button {
+    padding: 0;
+    font-size: 15px;
+    width: 47%;
+  }
+  .filtres button p {
+    margin: 0;
+  }
+
+  .infobulle {
+    margin: 0 20px 20px 20px;
   }
 }
