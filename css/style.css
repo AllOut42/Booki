@@ -502,6 +502,20 @@ footer div {
   .card-activite img {
     height: 82%;
   }
+
+  .filtres {
+    gap: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .filtre-1 {
+    width: auto;
+  }
+
+  .btn-recherche {
+    margin-bottom: 5px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
