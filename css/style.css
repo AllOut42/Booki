@@ -146,6 +146,10 @@ a {
   border-bottom-left-radius: 15px;
 }
 
+.logo i {
+  color: black;
+}
+
 .btn-recherche form {
   display: flex;
   justify-content: center;
@@ -596,6 +600,10 @@ footer div {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 25%;
     margin-left: -10px;
+  }
+
+  .tel-valider i {
+    color: white;
   }
 
   .btn-recherche .tel-valider:active {
