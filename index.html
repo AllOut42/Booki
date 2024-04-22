@@ -41,46 +41,45 @@
       </div>
       <div class="btn-recherche">
         <div class="logo">
-          <img
-            src="./images/symboles/localisation.png"
-            alt="point localisation"
-          />
+          <i class="fa-solid fa-location-dot"></i>
         </div>
-        <form class="recherche" action="" method="post">
-          <input type="text" name="recherche" placeholder="Marseille, France" />
+        <form class="recherche" action="#" method="get">
+          <input
+            class="recherche-bar"
+            type="text"
+            name="recherche"
+            autofocus
+            required
+            placeholder="Marseille, France"
+          />
+          <button type="submit" class="tel-valider">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button type="submit" class="valider">
+            <span>Rechercher</span>
+          </button>
         </form>
-        <button class="tel-valider">
-          <img src="./images/symboles/loupe.png" alt="loupe-tel" />
-        </button>
-        <button class="valider"><span>Rechercher</span></button>
       </div>
       <div class="filtres">
         <h3>Filtres</h3>
         <div class="filtre-1">
           <button class="bouton1">
-            <img
-              src="./images/symboles/economique.png"
-              alt="economique"
-            />Économique
+            <i class="fa-solid fa-money-bill-wave"></i>Économique
           </button>
           <button class="bouton1">
-            <img src="./images/symboles/familial.png" alt="familial" />Familial
+            <i class="fa-solid fa-person"></i>Familial
           </button>
           <button class="bouton2">
-            <img
-              src="./images/symboles/romantique.png"
-              alt="romantique"
-            />Romantique
+            <i class="fa-solid fa-heart"></i>Romantique
           </button>
           <button class="bouton2">
-            <img src="./images/symboles/pepites.png" alt="nos pepites" />Nos
-            Pépite
+            <i class="fa-solid fa-fire"></i>Nos Pépite
           </button>
         </div>
       </div>
       <div class="infobulle">
         <div class="infobulle-logo">
-          <img src="./images/symboles/infobulle.png" alt="infobulle" />
+          <i class="fa-solid fa-info"></i>
         </div>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
@@ -437,7 +436,7 @@
         <div class="activites" id="act">
           <h2 class="section-title">Activités à Marseille</h2>
           <div class="activite-ville">
-            <a href="./images/activites/reno-laithienne.jpg">
+            <a href="#">
               <div class="card-activite">
                 <img
                   src="./images/activites/reno-laithienne.jpg"
@@ -448,7 +447,7 @@
                 </div>
               </div>
             </a>
-            <a href="./images/activites/paul-hermann.jpg">
+            <a href="#">
               <div class="card-activite">
                 <img
                   src="./images/activites/paul-hermann.jpg"
@@ -459,7 +458,7 @@
                 </div>
               </div>
             </a>
-            <a href="./images/activites/kilyan-sockalingum.jpg">
+            <a href="#">
               <div class="card-activite">
                 <img
                   src="./images/activites/kilyan-sockalingum.jpg"
@@ -470,7 +469,7 @@
                 </div>
               </div>
             </a>
-            <a href="./images/activites/florian-wehde.jpg">
+            <a href="#">
               <div class="card-activite">
                 <img
                   src="./images/activites/florian-wehde.jpg"
