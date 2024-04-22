@@ -150,11 +150,9 @@ a {
   color: black;
 }
 
-.btn-recherche form {
+.recherche {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 195px;
+  width: 250px;
   height: 48px;
   border: 1px solid #f2f2f2;
 }
@@ -162,7 +160,7 @@ a {
 .btn-recherche form input {
   border: none;
   font-size: 18px;
-  width: 100%;
+  width: 195px;
 }
 
 .btn-recherche form:hover {
@@ -179,11 +177,12 @@ a {
 
 .btn-recherche .valider {
   width: 130px;
-  height: 50px;
-  border: #0065fc;
+  height: 100%;
+  border: solid 1px #0065fc;
   background-color: #0065fc;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  box-sizing: border-box;
 }
 
 .btn-recherche .valider:hover {
@@ -586,14 +585,29 @@ footer div {
     width: auto;
   }
 
-  .btn-recherche form {
-    width: 90%;
+  .btn-recherche .logo {
+    width: 10%;
+  }
+
+  .recherche {
+    width: 100%;
+    display: grid;
+    grid-row: 2;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .recherche-bar {
+    width: 100%;
   }
 
   .tel-valider {
     display: flex;
+    justify-self: flex-end;
+    grid-column: 2/2;
     justify-content: center;
     align-items: center;
+    height: 100%;
     width: 49px;
     border: #0065fc;
     background-color: #0065fc;
